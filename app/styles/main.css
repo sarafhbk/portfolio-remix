@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 100;
+  src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 300;
+  src: url("../assets/fonts/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Rubik;
+  font-weight: 500;
+  src: url("../assets/fonts/Rubik-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Rubik;
+  font-weight: 700;
+  src: url("../assets/fonts/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Rubik;
+  font-weight: 800;
+  src: url("../assets/fonts/Rubik-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Rubik;
+  font-weight: 900;
+  src: url("../assets/fonts/Rubik-Black.ttf") format("truetype");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+  cursor: none;
+  font-family: Rubik, sans-serif;
+  color: white;
+  background-color: #14161a;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
