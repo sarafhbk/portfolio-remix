@@ -630,6 +630,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: left;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -722,6 +726,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:leading-loose {
     line-height: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-left {
+    text-align: left;
   }
 }
 
