@@ -20,3 +20,13 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    cursor: default;
+  }
+  .custom-cursor-container {
+    display: none;
+  }
+}
