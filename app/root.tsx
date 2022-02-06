@@ -15,6 +15,7 @@ import Cursor from "./components/cursor/Cursor";
 import { MutableRefObject, useRef } from "react";
 import MenuStateProvider from "./providers/MenuStateProvider";
 import HeaderMobile from "./components/header/HeaderMobile";
+import OverlayMenu from "./components/overlay-menu/OverlayMenu";
 
 export const meta: MetaFunction = () => {
   return { title: "Saraf" };
@@ -91,6 +92,7 @@ export default function App() {
             cursor_ref={cursor_ref}
             cursor_follower_ref={cursor_follower_ref}
           />
+          <OverlayMenu />
           <ScrollRestoration />
           <Scripts />
           {process.env.NODE_ENV === "development" && <LiveReload />}

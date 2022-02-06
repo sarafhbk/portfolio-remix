@@ -5,7 +5,7 @@ export default function HeaderMobile() {
 
   return (
     <header className="flex items-center justify-between h-16 px-4 fixed top-0 w-full z-10000 bg-app-black md:hidden">
-      <h1 className="text-xl font-bold">Saraf.</h1>
+      <h1 className="text-2xl font-bold">Saraf.</h1>
       <button
         className="bg-white w-8 h-8 rounded-full menu-button md:w-12 md:h-12"
         onClick={() => setOpenMenu(!openMenu)}

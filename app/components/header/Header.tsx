@@ -144,7 +144,7 @@ export default function Header({
         onMouseMove={logoContainerMouseMove}
         onMouseEnter={logoContainerMouseEnter}
       >
-        <h1 ref={logo_ref} className="text-3xl font-bold">
+        <h1 ref={logo_ref} className="text-4xl font-bold">
           Saraf.
         </h1>
       </div>
